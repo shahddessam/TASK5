@@ -9,20 +9,7 @@ import 'package:listview/data/product.dart';
 
 
 class DataSource {
-  // static Future<List<Product>> getData() async {
-  //   final response =
-  //       await HttpRequest.(Uri.parse('https://dummyjson.com/products'));
-  //   List<Product> productsList = [];
-
-  //   if (response.statusCode == 200) {
-  //     var jsonResponse =
-  //         convert.jsonDecod(response.body) as Map<String, dynamic>;
-  //     for (var item in jsonResponse['products']) {
-  //       productsList.add(Product.fromJson(item));
-  //     }
-  //   }
-  //   return productsList;
-  // }
+ 
 
   static List<Product> products = [];
   static bool isLoading = true;
